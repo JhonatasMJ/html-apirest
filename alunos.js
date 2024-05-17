@@ -7,7 +7,7 @@ const filterImput = document.querySelector("#filter");
 const timeStamp = Date.now().toString();
 
 const getPosts = async (param) => {
-    const response = await fetch(`http://localhost/dsi/aula-3/apirest.php/person`)
+    const response = await fetch(`http://localhost/Desenvolvimento de Servidores/aula 4/new/aluno.php/aluno`)
     return response.json();
 }
 
